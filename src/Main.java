@@ -24,8 +24,6 @@ public class Main {
             default:  System.out.printf("Ошибка, введите один из символов (+, -, *, /)");
                 return;
         }
-        System.out.print("\nThe result is given as follows:\n");
-
         System.out.println("Ответ: " + ans);
     }
 }
